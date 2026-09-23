@@ -34,6 +34,6 @@ export const art = {
   iconChurch,
   couple,
   musicUrl,
-  familleVideo1: "/invite/famille-1b.mp4",
-  familleVideo2: "/invite/famille-2.mp4",
+  familleVideo1: `${import.meta.env.BASE_URL}invite/famille-1b.mp4`,
+  familleVideo2: `${import.meta.env.BASE_URL}invite/famille-2.mp4`,
 } as const
